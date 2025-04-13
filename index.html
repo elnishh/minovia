@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Chikibeibi</title>
+    <link rel="shortcut icon" href="/img - audio/heart.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- corazones flotantes de deco -->
+    <i class="corazon-flotante fas fa-heart" style="top: 15%; left: 5%; font-size: 30px; color: rgba(255, 107, 149, 0.4);"></i>
+    <i class="corazon-flotante fas fa-heart" style="top: 40%; right: 8%; font-size: 25px; color: rgba(255, 107, 149, 0.2); animation-delay: 0.8s;"></i>
+    <i class="corazon-flotante fas fa-heart" style="bottom: 20%; left: 10%; font-size: 22px; color: rgba(255, 107, 149, 0.3); animation-delay: 1.5s;"></i>
+    <i class="corazon-flotante fas fa-heart" style="top: 80%; right: 15%; font-size: 28px; color: rgba(255, 107, 149, 0.4); animation-delay: 2.1s;"></i>
+
+    <div class="contenedor-principal">
+        <header>
+            <h1>Mi Noviecita Linda</h1>
+            <p class="subtitulo">La persona más especial en mi vida</p>
+            <p class="fecha" id="fecha-actual">23 de marzo, 2025</p>
+        </header>
+
+        <main>
+            <div class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="/img - audio/mi preciosa.jpg" alt="Mi novia hermosa" style="rotate: 270deg;">
+                    <i class="corazon fas fa-heart corazon-1"></i>
+                    <i class="corazon fas fa-heart corazon-2"></i>
+                    <i class="corazon fas fa-heart corazon-3"></i>
+                    <i class="corazon fas fa-heart corazon-4"></i>
+                </div>
+                <div class="tarjeta-cuerpo">
+                    <h3 class="tarjeta-titulo">Mi Razón de Sonreír</h3>
+                    <p class="tarjeta-texto">Sos la luz que ilumina mis días, la sonrisa que alegra mi corazón y el amor más puro que jamás imaginé. Cada momento a tu lado es un tesoro que guardo en lo más profundo de mi ser.</p>
+                    <button class="boton-amor" id="boton-mensaje">
+                        <i class="fas fa-heart"></i> Te Amo
+                    </button>
+                </div>
+            </div>
+
+            <div class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="/img - audio/mi-mujer-y-io.webp" alt="Placeholder de una imagen juntos">
+                    <i class="corazon fas fa-heart corazon-1"></i>
+                    <i class="corazon fas fa-heart corazon-2"></i>
+                    <i class="corazon fas fa-heart corazon-3"></i>
+                    <i class="corazon fas fa-heart corazon-4"></i>
+                </div>
+                <div class="tarjeta-cuerpo">
+                    <h3 class="tarjeta-titulo">Juntos Por Siempre</h3>
+                    <p class="tarjeta-texto">Cada día que pasa me enamoro más de tu forma de ser, de tu sonrisa, de cómo me miras y de todos los momentos que compartimos juntos. sos mi compañera, mi vida y mi amor.</p>
+                    <div class="contador">
+                        Llevamos <span id="dias">1</span> días de amor
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjeta">
+                <div class="tarjeta-imagen">
+                    <img src="/img - audio/match perfecto.webp" alt="Nuestras Fotos de Perfil">
+                    <i class="corazon fas fa-heart corazon-1"></i>
+                    <i class="corazon fas fa-heart corazon-2"></i>
+                    <i class="corazon fas fa-heart corazon-3"></i>
+                    <i class="corazon fas fa-heart corazon-4"></i>
+                </div>
+                <div class="tarjeta-cuerpo">
+                    <h3 class="tarjeta-titulo">Nuestras Fotos de Perfil</h3>
+                    <p class="tarjeta-texto">Un recorrido por todas las fotos de perfil que fuimos compartiendo con amor en Discord. Cada match que hicimos, la historia de nuestro tiempo juntos desde amigos hasta novios en perfiles.</p>
+                    <a href="perfiles.html" class="boton-amor">
+                        <i class="fas fa-images"></i> Ver Galería
+                    </a>
+                </div>
+            </div>
+
+            
+        </main>
+
+        <div class="tarjeta" style="width: 1100px;">
+            <div class="tarjeta-imagen">
+                <img src="/img - audio/carta.webp" alt="Carta de Amor">
+                <i class="corazon fas fa-heart corazon-1"></i>
+                <i class="corazon fas fa-heart corazon-2"></i>
+                <i class="corazon fas fa-heart corazon-3"></i>
+                <i class="corazon fas fa-heart corazon-4"></i>
+            </div>
+            <div class="tarjeta-cuerpo">
+                <h3 class="tarjeta-titulo">Carta de Amor: Dos Meses</h3>
+                <p class="tarjeta-texto">Un mensaje especial que captura mis sentimientos en este momento único de nuestra historia. Un recuerdo de amor que quedará para siempre.</p>
+                <a href="carta.html" class="boton-amor">
+                    <i class="fas fa-heart"></i> Leer Carta
+                </a>
+            </div>
+        </div>
+
+        <div class="seccion-poema">
+            <p class="poema">
+                "En tus ojos encuentro mi paz,<br>
+                en tu sonrisa, mi felicidad.<br>
+                En tus brazos hallo mi hogar,<br>
+                y en tu corazón, mi eternidad.<br><br>
+                
+                No hay distancia que nos separe,<br>
+                ni tiempo que borre este sentir.<br>
+                Mi amor por ti es infinito,<br>
+                como las estrellas en el cielo al brillar."
+            </p>
+            <p class="autor">- Con todo mi amor, para vos</p>
+        </div>
+
+        <div class="galeria">
+            <div class="galeria-item">
+                <img class="galeria-img" src="/img - audio/recuerdo 1.webp" alt="imagen de recuerdo 1">
+            </div>
+            <div class="galeria-item">
+                <img class="galeria-img" src="/img - audio/recuerdo 2.webp" alt="imagen de recuerdo 2">
+            </div>
+            <div class="galeria-item">
+                <img class="galeria-img" src="/img - audio/recuerdo 3.webp" alt="imagen de recuerdo 3">
+            </div>
+            <div class="galeria-item">
+                <img class="galeria-img" src="/img - audio/recuerdo 4.webp" alt="imagen de recuerdo 4">
+            </div>
+            <div class="galeria-item">
+                <img class="galeria-img" src="/img - audio/recuerdo 5.webp" alt="imagen de recuerdo 5">
+            </div>
+            <div class="galeria-item">
+                <img class="galeria-img" src="/img - audio/recuerdo 6.webp" alt="imagen de recuerdo 6">
+            </div>
+            <div class="galeria-item">
+                <img class="galeria-img" src="/img - audio/recuerdo 7.webp" alt="imagen de recuerdo 7">
+            </div>
+            <div class="galeria-item">
+                <img class="galeria-img" src="/img - audio/recuerdo 8.webp" alt="imagen de recuerdo 8">
+            </div>
+            <div class="galeria-item">
+                <img class="galeria-img" src="/img - audio/recuerdo 9.webp" alt="imagen de recuerdo 9">
+            </div>
+            <div class="galeria-item">
+                <img class="galeria-img" src="/img - audio/recuerdo 10.webp" alt="imagen de recuerdo 10">
+            </div>
+        </div>
+
+        <footer>
+            <p>Hecho con ❤️ por Frank para el amor de mi vida | 2025</p>
+        </footer>
+    </div>
+
+    <audio id="cancion" src="/img - audio/Química Mayor.mp3" preload="auto"></audio>
+    <div id="reproductor">
+        <button id="play-pause">
+            <i class="fas fa-play" id="icono-play"></i>
+        </button>
+        <span>Nuestra canción</span>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
